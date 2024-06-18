@@ -1,0 +1,23 @@
+{
+  "name": "Panda NFT 3",
+  "description": "Panda NFT",
+  "image": "https://ipfs.io/ipfs/QmZWAtvwBp7mX7RiySAyCbd9GGcDGbvPFh7TKjiRszKp4a",
+  "attributes": [
+    {
+      "trait_type": "clothes",
+      "value": 2
+    },
+    {
+      "trait_type": "accessory",
+      "value": 1
+    },
+    {
+      "trait_type": "color",
+      "value": "white"
+    },
+    {
+      "trait_type": "background",
+      "value": "colorful"
+    }
+  ]
+}
