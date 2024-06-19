@@ -6,17 +6,7 @@ module.exports = buildModule("PandaCryptoModule", (m) => {
 
   const nft = m.contract("PandaCrypto", [NameToken, SymbolToken]);
 
-  try {
-    const mintNFT = nft.mint(
-      "https://ipfs.io/ipfs/QmcHApmEiRYfB9HquNNEGPF65RFZNucsA6QFWZTrv8heo4"
-    );
-
-    console.log("NFT minted successfully : %", mintNFT);
-  } catch (error) {
-    console.error(error);
-  }
-
   return { nft };
 });
 
-// #PandaCrypto - 0xC24da35b95ac2Aeb0ec5aD3b3Af848b344F545B7
+//#PandaCrypto - 0x766Ad5f66A4d9BF93c075b7e6e09F985e5a7CBa4
